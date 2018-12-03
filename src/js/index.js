@@ -1,0 +1,1 @@
+var swiper = new swiper(".wrap-swipper");

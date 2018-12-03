@@ -1,0 +1,24 @@
+{
+  "name": "week1-sun",
+  "version": "1.0.0",
+  "description": "week1-sun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoulVulnus/week1-sun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoulVulnus/week1-sun/issues"
+  },
+  "homepage": "https://github.com/SoulVulnus/week1-sun#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
