@@ -19,11 +19,13 @@ gulp.task("uglify", function() {
         .pipe(gulp.dest("./src/minjs/"))
 })
 
-
+//监听scss和js
 gulp.task("wacth", function() {
     gulp.watch("./src/scss/*.scss", gulp.series("devScss", "uglify"))
 })
 
+
+//起服务
 gulp.task("server", function() {
     gulp.src("src")
         .pipe(server({
